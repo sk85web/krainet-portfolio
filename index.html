@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/assets/style/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap&subset=latin,cyrillic" rel="stylesheet">
+    <link rel="icon" href="./src/assets/img/favicon.png" />
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="intro">
+        <div class="intro__social">
+            <div class="intro__social-inner">
+                <span class="intro__social-title">Социальные сети</span>
+            <div class="intro__social-decorate"></div>
+            <div class="social-icons">
+                <a href="https://github.com/" target="_blank">
+                    <title>Github</title>
+                    <svg class="social-icon social-icon_rotate" >
+                        <use xlink:href="./src/assets/img/icons/icons-sprite.svg#icon-github"></use>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <title>Instagram</title>
+                    <svg class="social-icon social-icon_rotate" >
+                        <use xlink:href="./src/assets/img/icons/icons-sprite.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <title>Facebook</title>
+                    <svg class="social-icon social-icon_rotate" >
+                        <use xlink:href="./src/assets/img/icons/icons-sprite.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+            </div>
+            </div>
+        </div>
+        <div class="intro__container container">
+            <div class="intro__content">
+                <h4 class="intro__content-suptitle">Меня зовут Александра Смит</h4>
+                <h1 class="intro__content-title">Я web-разработчик <br> из города Москва</h1>
+                <div class="intro__content-buttons">
+                    <button class="btn">Портфолио</button>
+                    <button class="btn">Про меня</button>
+                </div>
+            </div>
+        </div>
+        <div class="intro__burger">
+            <button class="burger__field">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+        </div>
+
+        <div class="intro__popup">
+            <aside class="popup__sidebar">
+                <button class="burger__field_close">
+                    <span></span>
+                    <span></span>
+                  </button>
+                <nav class="sidebar__nav"> 
+                    <ul class="sidebar__nav-list">
+                        <li>
+                            <a href="#" class="sidebar__nav-link">ПРО МЕНЯ</a>
+                        </li>
+                        <li>
+                            <a href="#benefits" class="sidebar__nav-link">МОЙ ОПЫТ</a>
+                        </li>
+                        <li>
+                            <a href="#" class="sidebar__nav-link">МОИ НАВЫКИ</a>
+                        </li>
+                        <li>
+                            <a href="#" class="sidebar__nav-link">МОИ РАБОТЫ</a>
+                        </li>
+                        <li>
+                            <a href="#" class="sidebar__nav-link">ПРАЙС-ЛИСТ</a>
+                        </li>
+                        <li>
+                            <a href="#contacts" class="sidebar__nav-link">КОНТАКТЫ</a>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <div class="social-icons social-icons_popup">
+                    <a href="https://github.com/" target="_blank">
+                        <title>Github</title>
+                        <svg class="social-icon social-icon_rotate" >
+                            <use xlink:href="./src/assets/img/icons/icons-sprite.svg#icon-github"></use>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <title>Instagram</title>
+                        <svg class="social-icon social-icon_rotate" >
+                            <use xlink:href="./src/assets/img/icons/icons-sprite.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <title>Facebook</title>
+                        <svg class="social-icon social-icon_rotate" >
+                            <use xlink:href="./src/assets/img/icons/icons-sprite.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </div>
+            </aside>
+        </div>
+    </header> <!-- /intro -->
+    <main>
+      <section class="benefits" id="benefits">
+        <div class="container">
+            <div class="benefits__container">
+                <div class="benefits__header">
+                    <h3 class="benefits__header-suptitle">Опыт</h3>
+                    <h2 class="benefits__header-title">Чем я буду полезна</h2>
+                </div>
+                <div class="benefits__content">
+                    <article class="benefits__education">
+                    <h3 class="benefits__article-title">Образование</h3>
+                    <div class="benefits__item">
+                        <div class="benefits__item-header">
+                            <img src="./src/assets/img/icons/University.svg" alt="university">
+                            <h3 class="benefits__item-title">МГТУ им. Н. Э. Баумана<br/> <span>Диплом магистра | Москва (2014-2020)</span></h3>
+                        </div>
+                        <p class="education__item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. </p>
+                    </div>
+                    <div class="benefits__item">
+                        <div class="benefits__item-header">
+                            <img src="./src/assets/img/icons/Courses.svg" alt="courses">
+                            <h3 class="benefits__item-title">Udemy<br/> <span>Курсы по Web-разработке </span></h3>
+                        </div>
+                        <p class="education__item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. </p>
+                    </div>
+                </article>
+                <article class="benefits__experience">
+                    <h3 class="benefits__article-title">Опыт работы</h3>
+                    <div class="benefits__item">
+                        <div class="benefits__item-header">
+                            <img src="./src/assets/img/icons/Developer.svg" alt="developer">
+                            <h3 class="benefits__item-title">Front-End Developer<br/> <span>EPAM | Москва (2018-2019)</span></h3>
+                        </div>
+                        <p class="education__item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. </p>
+                    </div>
+                    <div class="benefits__item">
+                        <div class="benefits__item-header">
+                            <img src="./src/assets/img/icons/Designer.svg" alt="designer">
+                            <h3 class="benefits__item-title">UI/UX Designer<br/> <span>Squad Team | Москва (2018)</span></h3>
+                        </div>
+                        <p class="education__item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. </p>
+                    </div>
+                </article>
+                </div>
+            </div>
+        </div>
+    </section><!-- /benefits -->
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="contacts__container">
+                <div class="contacts__img">
+                    <img src="./src/assets/img/Photo.png" alt="photo">
+                </div>
+                <div class="contacts__content">
+                    <div class="contacts__header">
+                        <h3 class="contacts__header-suptitle">Контакты</h3>
+                        <h2 class="contacts__header-title">Свяжитесь со мной</h2>
+                    </div>
+                    <div class="contacts__social">
+                        <h3 class="contacts__social-title">Любым удобным для вас способом:</h3>
+                        <div class="social-icons social-icons_contacts">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <title>Facebook</title>
+                                <svg class="social-icon social-icon_rotate" >
+                                    <use xlink:href="./src/assets/img/icons/icons-sprite.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                            <a href="https://www.github.com/" target="_blank">
+                                <title>Github</title>
+                                <svg class="social-icon social-icon_rotate">
+                                    <use xlink:href="./src/assets/img/icons/icons-sprite.svg#icon-github"></use>
+                                </svg>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <title>Instagram</title>
+                                <svg class="social-icon social-icon_rotate" >
+                                    <use xlink:href="./src/assets/img/icons/icons-sprite.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <h3 class="contacts__social-title">Или оставьте ваши данные и я сама вам напишу:</h3>
+                    </div>
+                    <form action="/" id="contacts__form">
+                        <div class="form__input">
+                            <fieldset class="form__fieldset" id="fieldset-name">
+                                <legend>Ваше имя</legend>
+                                <input type="text" id="input-name" name="name">
+                                <div class="error-message" id="name-error"></div>
+                            </fieldset>
+                            <fieldset class="form__fieldset" id="fieldset-email">
+                                <legend>Ваша почта</legend>
+                                <input type="email" id="input-email" name="email">
+                                <div class="error-message" id="email-error"></div>
+                            </fieldset>
+                            <fieldset class="form__fieldset" id="fieldset-text">
+                                <legend>Ваше сообщение</legend>
+                                <textarea type="text" id="input-text"></textarea>
+                                <div class="error-message" id="text-error"></div>
+                            </fieldset>
+                            <div class="contacts__policy">
+                                <input type="checkbox" id="input-policy"/>
+                                <label for="input-policy">
+                                    Я согласен(а) с <a href="#">политикой конфиденциальности</a>
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                    <button class="btn btn_lg" id="form-btn">Отправить сообщение</button>
+                </div>
+            </div>
+        </div>
+    </section><!-- /contacts -->
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
